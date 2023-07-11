@@ -15,4 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+}) -> name("home");
+
+Route::get('/lista-fumetti', function () {
+    return view('lista-fumetti');
+})-> name("lista-fumetti");

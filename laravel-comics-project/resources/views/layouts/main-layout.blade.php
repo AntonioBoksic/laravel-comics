@@ -17,11 +17,18 @@
 
 <body class="bg-dark text-white">
 
-  
+    <div class="container">
+        QUESTA è LA PAGINA PHP DEL LAYOUT
 
-    QUESTA è LA PAGINA PHP DEL LAYOUT
+        @include('components.header')
 
-    @yield('content')
+        @yield('content')
+
+        @include('components.footer')
+
+    </div>
+
+    
 
    
 
